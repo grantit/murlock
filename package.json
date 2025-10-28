@@ -1,9 +1,9 @@
 {
-  "name": "murlock",
+  "name": "@grantit/murlock",
   "version": "4.1.1",
   "description": "A distributed locking solution for NestJS, providing a decorator for critical sections with Redis-based synchronization.",
-  "author": "https://github.com/felanios",
-  "homepage": "https://github.com/felanios/murlock#readme",
+  "author": "https://github.com/grantit",
+  "homepage": "https://github.com/grantit/murlock#readme",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
@@ -76,13 +76,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/felanios/murlock"
+    "url": "https://github.com/grantit/murlock"
   },
   "bugs": {
-    "url": "https://github.com/felanios/murlock/issues"
+    "url": "https://github.com/grantit/murlock/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+     "@grantit:registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist/**/*",
